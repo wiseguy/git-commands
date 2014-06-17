@@ -10,5 +10,5 @@ List of Useful Git commands
 
 ###Push a local branch to remote
 
-> git branch &lt;branchName&gt;
-> git push -u origin &lt;branchName&gt;
+* git branch &lt;branchName&gt;
+* git push -u origin &lt;branchName&gt;
