@@ -6,6 +6,6 @@ List of Useful Git commands
 
 ###Deleting a repo from remote
 
-git push origin --delete **<branchName>**
+git push origin --delete &lt;branchName>&gt;
 
 
