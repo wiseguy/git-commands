@@ -4,8 +4,8 @@ Git Commands
 List of Useful Git commands
 
 
-###**Deleting a repo from remote**
+###Deleting a repo from remote
 
-git push origin --delete <branchName>
+git push origin --delete **<branchName>**
 
 
