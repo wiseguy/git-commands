@@ -12,3 +12,8 @@ List of Useful Git commands
 
 * git branch &lt;branchName&gt;
 * git push -u origin &lt;branchName&gt;
+
+
+### Git log
+
+* git log --pretty=oneline
