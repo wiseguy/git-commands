@@ -17,3 +17,8 @@ List of Useful Git commands
 ### Git log
 
 * git log --pretty=oneline
+
+
+###Git delete
+
+* git push origin --delete branchName
