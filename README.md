@@ -22,3 +22,8 @@ List of Useful Git commands
 ###Git delete
 
 * git push origin --delete branchName
+
+###Git tags
+
+git tag 1.0.0
+git push origin --tags
