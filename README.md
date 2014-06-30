@@ -25,5 +25,9 @@ List of Useful Git commands
 
 ###Git tags
 
+to list tags
+> git tag
+
+to add tag
 git tag 1.0.0
 git push origin --tags
