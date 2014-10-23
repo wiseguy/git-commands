@@ -27,7 +27,7 @@ List of Useful Git commands
 > git stash pop
 
 ###Pull in remote branch
-> git fetch &lt;remoteName&lt;
+> git fetch &lt;remoteName&gt;
 
 ###Trace File history
 > git blame &lt;fileName&gt;
