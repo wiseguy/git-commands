@@ -17,7 +17,7 @@ List of Useful Git commands
 > git branch -a
 
 ###Checkout a remote branch and setup local tracking
-> git checkout -b &lt;branchName&gt origin/&lt;branchName&gt
+> git checkout -b &lt;branchName&gt; origin&lt;branchName&gt;
 
 ###Stash changes
 *stash temporaily*
