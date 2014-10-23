@@ -22,6 +22,7 @@ List of Useful Git commands
 ###Stash changes
 *stash temporaily*
 > git stash
+
 *do your stuff and them revert back*
 > git stash pop
 
@@ -55,6 +56,7 @@ List of Useful Git commands
 ###Undo commits
 *Undo one commit*
 > git reset HEAD
+
 *Undo a number of commits*
 > git reset --hard HEAD~3
 
