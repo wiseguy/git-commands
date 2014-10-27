@@ -18,6 +18,7 @@ List of Useful Git commands
 
 ###Checkout a remote branch and setup local tracking
 > git checkout -b &lt;branchName&gt; origin/&lt;branchName&gt;
+
 *Alternative (shorter) way to checkout an existing remote branch*
 > git checkout &lt;branchName&gt;
 
