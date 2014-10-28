@@ -6,8 +6,20 @@ List of Useful Git commands
 ###Visualize commits
 > gitk --all &
 
-###Checkout a branch
+###List All Branches
+> git branch &lt;branchName&gt;
+
+###Create a branch without checking out to that branch
+> git branch &lt;branchName&gt;
+
+###Create and check out a branch
 > git checkout -b &lt;branchName&gt;
+
+###Safely delete a branch
+> git checkout -d &lt;branchName&gt;
+
+###Delete a branch even with unmerged changes
+> git checkout -D &lt;branchName&gt;
 
 ###Merging with another branch
 *go to target branch*
@@ -39,7 +51,6 @@ List of Useful Git commands
 > git push origin --delete &lt;branchName&gt;
 
 ###Push a local branch to remote
-> git branch &lt;branchName&gt;
 > git push -u origin &lt;branchName&gt;
 
 ### Git log
@@ -51,9 +62,10 @@ List of Useful Git commands
 
 *to add tag*
 > git tag &lt;tagName&gt;
+
 > git push origin --tags
 
-> delete tag
+*delete tag*
 > git tag -d &lt;tagName&gt;
 
 ###Undo commits
@@ -63,3 +75,5 @@ List of Useful Git commands
 *Undo a number of commits*
 > git reset --hard HEAD~3
 
+*Rename branch*
+> git branch -m &lt;branch&gt;
