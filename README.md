@@ -9,10 +9,13 @@ List of Useful Git commands
 ###List All Branches
 > git branch &lt;branchName&gt;
 
+###See hidden branches
+> git branch -a
+
 ###Create a branch without checking out to that branch
 > git branch &lt;branchName&gt;
 
-###Create and check out a branch
+###Create and check out to a branch
 > git checkout -b &lt;branchName&gt;
 
 ###Safely delete a branch
@@ -25,9 +28,6 @@ List of Useful Git commands
 *go to target branch*
 > git merge &lt;source-branchName&gt;
 
-###See hidden branches
-> git branch -a
-
 ###Checkout a remote branch and setup local tracking
 > git checkout -b &lt;branchName&gt; origin/&lt;branchName&gt;
 
@@ -35,10 +35,9 @@ List of Useful Git commands
 > git checkout &lt;branchName&gt;
 
 ###Stash changes
-*stash temporaily*
 > git stash
 
-*do your stuff and them revert back*
+*do your stuff and then revert back*
 > git stash pop
 
 ###Pull in remote branch
