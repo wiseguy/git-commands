@@ -28,6 +28,9 @@ List of Useful Git commands
 *go to target branch*
 > git merge &lt;source-branchName&gt;
 
+###Base branch on another branch
+git checkout -b &lt;branchName&gt; &lt;branchToBaseFrom&gt;
+
 ###Checkout a remote branch and setup local tracking
 > git checkout -b &lt;branchName&gt; origin/&lt;branchName&gt;
 
