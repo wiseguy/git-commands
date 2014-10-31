@@ -19,10 +19,10 @@ List of Useful Git commands
 > git checkout -b &lt;branchName&gt;
 
 ###Safely delete a branch
-> git checkout -d &lt;branchName&gt;
+> git branch -d &lt;branchName&gt;
 
 ###Delete a branch even with unmerged changes
-> git checkout -D &lt;branchName&gt;
+> git branch -D &lt;branchName&gt;
 
 ###Merging with another branch
 *go to target branch*
