@@ -10,7 +10,7 @@ List of Useful Git commands
 > git branch &lt;branchName&gt;
 
 ###See hidden branches
-> git branch -a
+> git branch -a 
 
 ###Create a branch without checking out to that branch
 > git branch &lt;branchName&gt;
