@@ -60,6 +60,7 @@ git checkout -b &lt;branchName&gt; &lt;branchToBaseFrom&gt;
 
 ###Git tags
 *to list tags*
+
 > git tag
 
 *to add tag*
