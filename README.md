@@ -71,6 +71,9 @@ git checkout -b &lt;branchName&gt; &lt;branchToBaseFrom&gt;
 *delete tag*
 > git tag -d &lt;tagName&gt;
 
+*delete tag on remote*
+> git push origin :refs/tags/&lt;tagName&gt
+
 ###Undo commits
 *Undo one commit*
 > git reset HEAD
