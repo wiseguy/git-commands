@@ -83,3 +83,30 @@ git checkout -b &lt;branchName&gt; &lt;branchToBaseFrom&gt;
 
 *Rename branch*
 > git branch -m &lt;branch&gt;
+
+*Add a new Remote*
+git remote add origin-br git@github.com:blueraster/gfw-commodities-app.git
+
+<!-- *Track the curent branch to a different remote branch*
+git branch -u git@github.com:blueraster/gfw-commodities-app.git/master
+ -->
+
+*Track current branch to a different remote branch*
+git branch -u origin-br &lt;branchName&gt;
+
+git branch develop-br -u origin-br/master
+git branch --set-upstream develop-br origin-br/master
+
+*Pull from remote branch into current branch
+git pull origin-br &lt;remoteBranchName&gt; 
+git pull origin-br master; 
+
+*Push current branch to remote branch
+git push origin-br &lt;remoteBranchName&gt; 
+git push origin-br develop-br; 
+
+*Steps to Push to different Repo's Remote Branch*
+git checkout -b develop-br
+git remote add origin-br git@github.com:blueraster/gfw-commodities-app.git
+git pull origin-br master
+git push origin-br develop-br;
