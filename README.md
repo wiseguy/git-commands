@@ -84,6 +84,9 @@ git checkout -b &lt;branchName&gt; &lt;branchToBaseFrom&gt;
 *Rename branch*
 > git branch -m &lt;branch&gt;
 
+*Delete a remote*
+> git remote rm <remoteName>
+
 *Add a new Remote*
 git remote add origin-br git@github.com:blueraster/gfw-commodities-app.git
 
